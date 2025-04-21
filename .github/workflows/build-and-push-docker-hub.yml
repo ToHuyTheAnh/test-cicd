@@ -30,7 +30,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: theanhto
+          tags: theanhto/test-cicd:latest
 
 
   pull-and-up:
